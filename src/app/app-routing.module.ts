@@ -10,11 +10,12 @@ import { CategoriaComponent } from './page/categoria/categoria.component';
 import { ProductoComponent } from './page/producto/producto.component';
 import { VendedorComponent } from './page/vendedor/vendedor.component';
 import { DetalleVentaComponent } from './page/detalle-venta/detalle-venta.component';
+import { NotificacionCreaeditaComponent } from './page/notificacion/notificacion-creaedita/notificacion-creaedita.component';
 
 
 const routes: Routes = [{
   path: 'categoria', component:CategoriaComponent,children:[
-
+    
   ]
 },
 {
@@ -34,7 +35,8 @@ const routes: Routes = [{
 },
 {
   path:'notificacion', component:NotificacionComponent,children:[
-    
+    {path:'nuevo', component:NotificacionCreaeditaComponent},
+    {path:'edicion/:id', component:NotificacionCreaeditaComponent}
   ]
 },
 {
@@ -62,7 +64,6 @@ const routes: Routes = [{
     
   ]
 }
-
 
 
 

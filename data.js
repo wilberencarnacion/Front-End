@@ -85,17 +85,17 @@ module.exports = function () {
 		],
 		notificacion: [{
 
-			idNotifica: 1,
+			id: 1,
 			fechaCaducidad: "2022-09-30",
 			stock: 20
 		},
 		{
-			idNotifica: 2,
+			id: 2,
 			fechaCaducidad: "2022-10-25",
 			stock: 10
 		},
 		{
-			idNotifica: 3,
+			id: 3,
 			fechaCaducidad: "2023-01-27",
 			stock: 13
 		}
