@@ -37,6 +37,10 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 
+import { CategoriaCreaeditaComponent } from './page/categoria/categoria-creaedita/categoria-creaedita.component';
+import { CategoriaDialogoComponent } from './page/categoria/categoria-listar/categoria-dialogo/categoria-dialogo.component';
+import { CategoriaBuscarComponent } from './page/categoria/categoria-buscar/categoria-buscar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,6 +68,10 @@ import { MatInputModule } from '@angular/material/input';
     NotificacionDialogoComponent,
     NotificacionBuscarComponent,
     NotificacionCreaeditaComponent,
+    
+    CategoriaCreaeditaComponent,
+    CategoriaDialogoComponent,
+    CategoriaBuscarComponent,
     
   ],
   imports: [
