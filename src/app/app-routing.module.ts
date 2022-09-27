@@ -11,11 +11,12 @@ import { ProductoComponent } from './page/producto/producto.component';
 import { VendedorComponent } from './page/vendedor/vendedor.component';
 import { DetalleVentaComponent } from './page/detalle-venta/detalle-venta.component';
 import { NotificacionCreaeditaComponent } from './page/notificacion/notificacion-creaedita/notificacion-creaedita.component';
-
+import { CategoriaCreaeditaComponent } from './page/categoria/categoria-creaedita/categoria-creaedita.component';
 
 const routes: Routes = [{
   path: 'categoria', component:CategoriaComponent,children:[
-    
+    { path: 'nuevo', component: CategoriaCreaeditaComponent },
+    { path: 'edicion/:id', component: CategoriaCreaeditaComponent }
   ]
 },
 {

@@ -2,19 +2,19 @@ module.exports = function () {
 	var data = {
 		categoria: [
 			{
-				idCategoria: 1,
+				id: 1,
 				nomCategoria: "Lácteos",
 			},
 			{
-				idCategoria: 2,
+				id: 2,
 				nomCategoria: "Bebidas",
 			},
 			{
-				idCategoria: 3,
+				id: 3,
 				nomCategoria: "Menestras",
 			},
 			{
-				idCategoria: 4,
+				id: 4,
 				nomCategoria: "Verduras",
 			}
 		],
