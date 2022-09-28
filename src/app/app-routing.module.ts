@@ -12,7 +12,7 @@ import { VendedorComponent } from './page/vendedor/vendedor.component';
 import { DetalleVentaComponent } from './page/detalle-venta/detalle-venta.component';
 import { NotificacionCreaeditaComponent } from './page/notificacion/notificacion-creaedita/notificacion-creaedita.component';
 import { CategoriaCreaeditaComponent } from './page/categoria/categoria-creaedita/categoria-creaedita.component';
-
+import { ConsumidorCreaeditaComponent } from './page/consumidor/consumidor-creaedita/consumidor-creaedita.component';
 const routes: Routes = [{
   path: 'categoria', component:CategoriaComponent,children:[
     { path: 'nuevo', component: CategoriaCreaeditaComponent },
@@ -42,7 +42,8 @@ const routes: Routes = [{
 },
 {
   path:'consumidor', component:ConsumidorComponent,children:[
-    
+    {path: 'nuevo', component: ConsumidorCreaeditaComponent},
+    {path: 'edicion/:id', component: ConsumidorCreaeditaComponent}
   ]
 },
 {
