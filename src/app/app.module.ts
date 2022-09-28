@@ -25,27 +25,6 @@ import { ConsumidorListarComponent } from './page/consumidor/consumidor-listar/c
 import { OfertaListarComponent } from './page/oferta/oferta-listar/oferta-listar.component';
 import { FacturaListarComponent } from './page/factura/factura-listar/factura-listar.component';
 import { ReporteListarComponent } from './page/reporte/reporte-listar/reporte-listar.component';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import {MatMenuModule} from '@angular/material/menu';
-import { NotificacionDialogoComponent } from './page/notificacion/notificacion-listar/notificacion-dialogo/notificacion-dialogo.component';
-import { NotificacionBuscarComponent } from './page/notificacion/notificacion-buscar/notificacion-buscar.component';
-import { NotificacionCreaeditaComponent } from './page/notificacion/notificacion-creaedita/notificacion-creaedita.component';
-import { MatDialogModule } from '@angular/material/dialog';
-import { FormsModule } from '@angular/forms';
-import { MatInputModule } from '@angular/material/input';
-
-import { CategoriaCreaeditaComponent } from './page/categoria/categoria-creaedita/categoria-creaedita.component';
-import { CategoriaDialogoComponent } from './page/categoria/categoria-listar/categoria-dialogo/categoria-dialogo.component';
-import { CategoriaBuscarComponent } from './page/categoria/categoria-buscar/categoria-buscar.component';
-import { ConsumidorBuscarComponent } from './page/consumidor/consumidor-buscar/consumidor-buscar.component';
-import { ConsumidorCreaeditaComponent } from './page/consumidor/consumidor-creaedita/consumidor-creaedita.component';
-import { ConsumidorDialogoComponent } from './page/consumidor/consumidor-listar/consumidor-dialogo/consumidor-dialogo.component';
-import { VendedorDialogoComponent } from './page/vendedor/vendedor-listar/vendedor-dialogo/vendedor-dialogo.component';
-import { VendedorCreaeditaComponent } from './page/vendedor/vendedor-creaedita/vendedor-creaedita.component';
-import { VendedorBuscarComponent } from './page/vendedor/vendedor-buscar/vendedor-buscar.component';
 
 @NgModule({
   declarations: [
@@ -69,36 +48,14 @@ import { VendedorBuscarComponent } from './page/vendedor/vendedor-buscar/vendedo
     ConsumidorListarComponent,
     OfertaListarComponent,
     FacturaListarComponent,
-    ReporteListarComponent,
-    NavBarComponent,
-    NotificacionDialogoComponent,
-    NotificacionBuscarComponent,
-    NotificacionCreaeditaComponent,
-    
-    CategoriaCreaeditaComponent,
-    CategoriaDialogoComponent,
-    CategoriaBuscarComponent,
-    ConsumidorBuscarComponent,
-    ConsumidorCreaeditaComponent,
-    ConsumidorDialogoComponent,
-    VendedorDialogoComponent,
-    VendedorCreaeditaComponent,
-    VendedorBuscarComponent,
-    
+    ReporteListarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatTableModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
-    MatMenuModule,
-    MatDialogModule,
-    FormsModule,
-    MatInputModule
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,5 @@
 export class Categoria {
-    id: number = 0;
+    idCategoria: number = 0;
     nomCategoria: string = "";
 
 }

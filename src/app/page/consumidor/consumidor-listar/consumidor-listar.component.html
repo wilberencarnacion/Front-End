@@ -1,9 +1,4 @@
-<div class="container">
-  <div style="text-align: center;">
-    <br>
-  <h1>Lista de Consumidores</h1>
-</div>
-<app-consumidor-buscar style="  position: relative; left: 265px;"></app-consumidor-buscar>
+<h1>Consumidores</h1>
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
     <!--- Note that these columns can be defined in any order.
@@ -56,32 +51,9 @@
         <th mat-header-cell *matHeaderCellDef> Password </th>
         <td mat-cell *matCellDef="let element"> {{element?.password}} </td>
     </ng-container>
-    
-    <ng-container matColumnDef="acciones">
-      <th mat-header-cell *matHeaderCellDef> Acciones </th>
-      <td mat-cell *matCellDef="let element"> <button mat-raised-button color="primary"
-          [routerLink]="['edicion', element?.id]">Actualizar</button>
-      </td>
-    </ng-container>
-    
-    <ng-container matColumnDef="accion2">
-      <th mat-header-cell *matHeaderCellDef> Acciones </th>
-      <td mat-cell *matCellDef="let element">
-        <button mat-raised-button color="warn" (click)="confirmar(element.id)">Eliminar</button>
-
-      </td>
-    </ng-container>
-
+  
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
-
-  <div style="  position: relative;  top: 1px; left: 260px;" class="example-button-container">
-
-    <button mat-mini-fab color="primary" aria-label="Example icon button with a plus one icon"
-      routerLink="/consumidor/nuevo">
-      <mat-icon>plus_one</mat-icon>
-    </button>
-  </div>
   
   
