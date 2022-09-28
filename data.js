@@ -2,19 +2,19 @@ module.exports = function () {
 	var data = {
 		categoria: [
 			{
-				idCategoria: 1,
+				id: 1,
 				nomCategoria: "Lácteos",
 			},
 			{
-				idCategoria: 2,
+				id: 2,
 				nomCategoria: "Bebidas",
 			},
 			{
-				idCategoria: 3,
+				id: 3,
 				nomCategoria: "Menestras",
 			},
 			{
-				idCategoria: 4,
+				id: 4,
 				nomCategoria: "Verduras",
 			}
 		],
@@ -38,7 +38,7 @@ module.exports = function () {
 		],
 		vendedor: [
 			{
-				idVendedor: 1,
+				id: 1,
 				nomVendedor: "Pedro",
 				dniVendedor: 76458921,
 				edadVendedor: 28,
@@ -48,7 +48,7 @@ module.exports = function () {
 				password: "pedritotec"
 			},
 			{
-				idVendedor: 2,
+				id: 2,
 				nomVendedor: "Juan",
 				dniVendedor: 76445921,
 				edadVendedor: 21,
@@ -58,7 +58,7 @@ module.exports = function () {
 				password: "juanito22"
 			},
 			{
-				idVendedor: 3,
+				id: 3,
 				nomVendedor: "Jose",
 				dniVendedor: 74589123,
 				edadVendedor: 38,
@@ -85,17 +85,17 @@ module.exports = function () {
 		],
 		notificacion: [{
 
-			idNotifica: 1,
+			id: 1,
 			fechaCaducidad: "2022-09-30",
 			stock: 20
 		},
 		{
-			idNotifica: 2,
+			id: 2,
 			fechaCaducidad: "2022-10-25",
 			stock: 10
 		},
 		{
-			idNotifica: 3,
+			id: 3,
 			fechaCaducidad: "2023-01-27",
 			stock: 13
 		}
