@@ -38,7 +38,7 @@ module.exports = function () {
 		],
 		vendedor: [
 			{
-				idVendedor: 1,
+				id: 1,
 				nomVendedor: "Pedro",
 				dniVendedor: 76458921,
 				edadVendedor: 28,
@@ -48,7 +48,7 @@ module.exports = function () {
 				password: "pedritotec"
 			},
 			{
-				idVendedor: 2,
+				id: 2,
 				nomVendedor: "Juan",
 				dniVendedor: 76445921,
 				edadVendedor: 21,
@@ -58,7 +58,7 @@ module.exports = function () {
 				password: "juanito22"
 			},
 			{
-				idVendedor: 3,
+				id: 3,
 				nomVendedor: "Jose",
 				dniVendedor: 74589123,
 				edadVendedor: 38,

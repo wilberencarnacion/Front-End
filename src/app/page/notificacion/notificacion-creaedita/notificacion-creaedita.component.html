@@ -13,14 +13,14 @@ left: 400px;" class="container">
 
   <mat-form-field class="example-full-width">
     <mat-label>Fecha de Caducidad</mat-label>
-    <input matInput required placeholder="name" [(ngModel)]="notificacion.fechaCaducidad">
+    <input type="date" matInput required placeholder="name" [(ngModel)]="notificacion.fechaCaducidad">
 
   </mat-form-field>
 
   <br>
   <mat-form-field class="example-full-width">
     <mat-label>Stock</mat-label>
-    <input type="email" matInput required placeholder="email" [(ngModel)]="notificacion.stock">
+    <input type="number" matInput required placeholder="cantidad" [(ngModel)]="notificacion.stock">
   </mat-form-field>
 
   <br>
