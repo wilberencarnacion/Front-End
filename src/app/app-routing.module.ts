@@ -1,3 +1,4 @@
+import { VendedorCreaeditaComponent } from './page/vendedor/vendedor-creaedita/vendedor-creaedita.component';
 import { FacturaComponent } from './page/factura/factura.component';
 import { ReporteComponent } from './page/reporte/reporte.component';
 import { OfertaComponent } from './page/oferta/oferta.component';
@@ -21,7 +22,8 @@ const routes: Routes = [{
 },
 {
   path:'vendedor', component:VendedorComponent,children:[
-
+    {path: 'nuevo', component: VendedorCreaeditaComponent},
+    {path: 'edicion/:id', component: VendedorCreaeditaComponent}
   ]
 },
 {

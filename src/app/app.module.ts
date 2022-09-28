@@ -43,6 +43,9 @@ import { CategoriaBuscarComponent } from './page/categoria/categoria-buscar/cate
 import { ConsumidorBuscarComponent } from './page/consumidor/consumidor-buscar/consumidor-buscar.component';
 import { ConsumidorCreaeditaComponent } from './page/consumidor/consumidor-creaedita/consumidor-creaedita.component';
 import { ConsumidorDialogoComponent } from './page/consumidor/consumidor-listar/consumidor-dialogo/consumidor-dialogo.component';
+import { VendedorDialogoComponent } from './page/vendedor/vendedor-listar/vendedor-dialogo/vendedor-dialogo.component';
+import { VendedorCreaeditaComponent } from './page/vendedor/vendedor-creaedita/vendedor-creaedita.component';
+import { VendedorBuscarComponent } from './page/vendedor/vendedor-buscar/vendedor-buscar.component';
 
 @NgModule({
   declarations: [
@@ -78,6 +81,9 @@ import { ConsumidorDialogoComponent } from './page/consumidor/consumidor-listar/
     ConsumidorBuscarComponent,
     ConsumidorCreaeditaComponent,
     ConsumidorDialogoComponent,
+    VendedorDialogoComponent,
+    VendedorCreaeditaComponent,
+    VendedorBuscarComponent,
     
   ],
   imports: [

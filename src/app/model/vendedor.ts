@@ -1,5 +1,5 @@
 export class Vendedor {
-    idVendedor: number = 0;
+    id: number = 0;
     nomVendedor: string = "";
     dniVendedor: number=0;
     edadVendedor: number = 0;
