@@ -40,6 +40,9 @@ import { MatInputModule } from '@angular/material/input';
 import { CategoriaCreaeditaComponent } from './page/categoria/categoria-creaedita/categoria-creaedita.component';
 import { CategoriaDialogoComponent } from './page/categoria/categoria-listar/categoria-dialogo/categoria-dialogo.component';
 import { CategoriaBuscarComponent } from './page/categoria/categoria-buscar/categoria-buscar.component';
+import { ConsumidorBuscarComponent } from './page/consumidor/consumidor-buscar/consumidor-buscar.component';
+import { ConsumidorCreaeditaComponent } from './page/consumidor/consumidor-creaedita/consumidor-creaedita.component';
+import { ConsumidorDialogoComponent } from './page/consumidor/consumidor-listar/consumidor-dialogo/consumidor-dialogo.component';
 
 @NgModule({
   declarations: [
@@ -72,6 +75,9 @@ import { CategoriaBuscarComponent } from './page/categoria/categoria-buscar/cate
     CategoriaCreaeditaComponent,
     CategoriaDialogoComponent,
     CategoriaBuscarComponent,
+    ConsumidorBuscarComponent,
+    ConsumidorCreaeditaComponent,
+    ConsumidorDialogoComponent,
     
   ],
   imports: [
